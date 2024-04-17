@@ -1,0 +1,121 @@
+/* play-700 - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2'); 
+    url('../fonts/play-v19-latin-700.woff') format('woff')
+  }
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); 
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff')
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff')
+  }
+:root {
+    --color-brand-primary-light: #2B7FFF;
+    --color-brand-primary-dark: #011C44;
+}
+
+/*Base*/
+.body {
+color: var(--color-brand-primary-dark);
+font-family: "Roboto", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+}
+ul {
+    list-style-type: none;
+}
+.background {
+    background-color: var(--color-brand-primary-dark);
+}
+/*button*/
+.button-order {
+    color: #FFFFFF;
+    ont-family: "Roboto", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.5;
+    background-color: var(--color-brand-primary-light);
+    border: 2px solid var(--color-brand-primary-light);
+    border-radius: 32px;
+    cursor: pointer;
+}
+.button-order:hover {
+    color: #011F4A;
+    background-color: transparent;
+}
+/*Link*/
+.link { 
+    color:#FFFFFF;
+}
+.link:hover {
+    color: var(--color-brand-primary-light);
+}
+
+}
+/*CTA*/
+.cta-text {
+    font-size: 12px;
+    text-align: center;
+}
+}
+/*Hero section*/
+.hero-title {
+    color: var(--color-brand-primary-light);
+    text-transform: capitalize;
+}
+/*Why-we-section-section*/
+.advantages-list-first {
+    background-color: var(---color-brand-primary-light);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.accent-name {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.section-title {
+    color: var(--color-brand-primary-dark);
+    font-family: "Play";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.advantages-list {
+    line-height: 24px;
+    
+}
+.section-title .accent {
+    color: var(--color-brand-primary-light);
+    text-transform: capitalize;
+}
+.section-title-other {
+    text-transform: none;
+}
+
+/*Address*/
+.address {
+    color:#FFFFFF;
+}
+.address:hover {
+    color: var(--color-brand-primary-light);
+}
